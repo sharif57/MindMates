@@ -2,10 +2,12 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 
 export default function Root() {
-  return (
-    <div>
-        <Navbar></Navbar>
-      <Outlet></Outlet>
-    </div>
-  )
+    return (
+        <div className="font-f">
+            <Navbar></Navbar>
+            <div className="pt-14">
+                <Outlet></Outlet>
+            </div>
+        </div>
+    )
 }

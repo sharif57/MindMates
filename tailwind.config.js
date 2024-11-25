@@ -4,7 +4,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ], theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Add the Berkshire Swash font here
+        f: ["Poppins", 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
