@@ -1,9 +1,9 @@
 
 export default function Banner() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center px-6 ">
             <div className="space-y-8">
-                <h1 className="text-7xl font-semibold ">
+                <h1 className="lg:text-7xl text-4xl font-semibold ">
                     Healthy Minds, Happy {' '}
                     <span className="bg-gradient-to-r from-teal-400 to-blue-600 bg-clip-text text-transparent">
                         Lives Mental
@@ -22,7 +22,9 @@ export default function Banner() {
 
 
             </div>
-            <img src="/banner.png" alt="" />
+            <video className="w-full" src="/Mental health.mp4" autoPlay loop muted playsInline />
+            {/* <img src="/banner.png" alt="" /> */}
+          
         </div>
     )
 }
