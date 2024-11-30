@@ -23,9 +23,6 @@ export default function Navbar() {
         //         { title: 'Shop', path: '/blogs/shop' },
         //         { title: 'Cart', path: '/blogs/cart' },
         //         { title: 'Team', path: '/blogs/team' },
-        //         { title: 'Review', path: '/blogs/review' },
-        //         { title: 'Load More', path: '/blogs/loadMore' },
-
         //     ],
         // },
     
